@@ -3,7 +3,7 @@
     "short_name": "Pets4Pals",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#231F20",
+    "background_color": "#0F0D12",
     "theme_color": "#FBB03B",
     "description": "سجل الحيوانات الأليفة في مصر",
     "orientation": "portrait-primary",

@@ -104329,7 +104329,7 @@ break
 case 6:case 1:return A.F(q,r)
 case 2:return A.E(o.at(-1),r)}})
 return A.G($async$wZ,r)},
-K(a){var s=this,r=null,q=A.o3(!1,A.ae(A.af(a),"login_title")),p=A.ak8("assets/images/app_icon.png",96),o=A.fK(s.x,r,r,B.oz,A.ae(A.af(a),"email"),!0,1,!1,new A.aFn(a)),n=A.fK(s.y,r,r,r,A.ae(A.af(a),"password"),!0,1,!0,new A.aFo(a)),m=A.ae(A.af(a),"sign_in")
+K(a){var s=this,r=null,q=A.o3(!1,A.ae(A.af(a),"login_title")),p=A.ak8("assets/images/app_icon.webp",128),o=A.fK(s.x,r,r,B.oz,A.ae(A.af(a),"email"),!0,1,!1,new A.aFn(a)),n=A.fK(s.y,r,r,r,A.ae(A.af(a),"password"),!0,1,!0,new A.aFo(a)),m=A.ae(A.af(a),"sign_in")
 m=A.b([p,B.kO,o,n,B.hT,A.jb(s.z,!1,r,m,s.gasV(),B.cA)],t.p)
 p=s.Q
 if(p!=null)m.push(new A.la(p,!0,r))
@@ -104667,7 +104667,7 @@ $S:83}
 A.B_.prototype={
 K(a){var s,r=null,q=B.qj.cJ(0.55),p=B.ba.cJ(0.18),o=this.c
 if(o!=null)o=A.aW(o,r,r,r,B.hX,r,r,r)
-else o=this.e?A.ak8("assets/images/logo.png",34):r
+else o=this.e?A.ak8("assets/images/logo.webp",34):r
 s=A.b([B.QP],t.p)
 if(this.d)s.push(B.a6G)
 s.push(B.a7T)
@@ -104934,7 +104934,7 @@ this.acZ()},
 K(a){var s,r,q,p,o=null,n=A.W(a).ok,m=A.by(a,o,t.l).w.a.a>700,l=this.gID(),k=m?340:260,j=m?170:130
 k=A.fM(o,o,B.w,o,o,new A.cQ(o,o,o,A.h3(200),A.b([new A.bC(10,B.R,B.ba.cJ(0.28),B.j,90)],t.E),o,B.at),o,j,o,o,o,o,k)
 j=t.p
-k=A.hv(l,new A.aEh(this),A.iH(B.a2,A.b([k,A.ak8("assets/images/logo.png",m?150:118)],j),B.T,B.bv,o))
+k=A.hv(l,new A.aEh(this),A.iH(B.a2,A.b([k,A.ak8("assets/images/logo.webp",m?150:118)],j),B.T,B.bv,o))
 l=A.ae(A.af(a),"tagline")
 s=n.w
 r=s==null
