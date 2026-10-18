@@ -151996,7 +151996,7 @@ o=t.p
 q=A.bb(A.b([B.afr,B.bZ,a,A.c2(g,A.y(p,g,g,g,A.cH(g,g,r?B.eA:B.fT,g,g,g,g,g,g,g,g,12,g,g,B.aD,g,g,!0,g,g,g,g,g,g,g,g),g,g,g),B.P,g,g,new A.bO(a1,g,g,q,g,g,B.au),g,g,g,B.od,g,g,g)],o),B.R,B.A,B.G,0)
 a1=[a0.h(0,"clinic_name")]
 a=a0.h(0,e)
-if(!J.c(a==null?"":a,""))a1.push(A.f(A.e(a2),"rx_vet")+" "+A.j(a0.h(0,e)))
+if(!J.c(a==null?"":a,"")&&!B.o.n(A.X(a0.h(0,e)),"@"))a1.push(A.f(A.e(a2),"rx_vet")+" "+A.j(a0.h(0,e)))
 a1.push(a0.h(0,"given_on"))
 a=A.b([q,B.e7,A.y(new A.cS(a1,t.Ri).bF(0," \xb7 "),g,g,g,B.fh,g,g,g)],o)
 a1=a0.h(0,d)
