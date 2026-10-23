@@ -39981,8 +39981,9 @@ _.c=_.a=null},
 b6E:function b6E(a){this.a=a},
 b6F:function b6F(a,b){this.a=a
 this.b=b},
-b6G:function b6G(a,b){this.a=a
-this.b=b},
+b6G:function b6G(a,b,c){this.a=a
+this.b=b
+this.c=c},
 b6H:function b6H(a,b){this.a=a
 this.b=b},
 b6I:function b6I(a){this.a=a},
@@ -148921,35 +148922,39 @@ this.aG()},
 ab1(){$.ah.ok$.push(new A.b6E(this))},
 yF(a){return this.aPI(a)},
 aAC(){return this.yF(null)},
-aPI(a2){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1
-var $async$yF=A.p(function(a3,a4){if(a3===1){o.push(a4)
-s=p}for(;;)switch(s){case 0:a0=B.o.aY(a2==null?m.w.a.a:a2)
-if(a0.length===0||m.z){s=1
-break}m.D(new A.b6F(m,a0))
+aPI(a3){var s=0,r=A.u(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2
+var $async$yF=A.p(function(a4,a5){if(a4===1){o.push(a5)
+s=p}for(;;)switch(s){case 0:a1=B.o.aY(a3==null?m.w.a.a:a3)
+if(a1.length===0||m.z){s=1
+break}m.D(new A.b6F(m,a1))
 m.ab1()
 p=4
-g=$.aD().b
-g===$&&A.a()
-g=g.ax
-g===$&&A.a()
-f=m.c
-f.toString
-f=A.e(f).gdt()
+f=$.aD().b
+f===$&&A.a()
+f=f.ax
+f===$&&A.a()
+e=m.c
+e.toString
+e=A.e(e).gdt()
 l=A.b([],t.m0)
-for(e=m.y,d=e.length,c=t.N,b=0;b<e.length;e.length===d||(0,A.D)(e),++b){k=e[b]
-J.ej(l,A.Z(["role",k.a,"content",k.b],c,c))}s=7
-return A.l(g.kN("vet-assistant",A.Z(["lang",f,"messages",l],c,t.K)),$async$yF)
-case 7:j=a4
+for(d=m.y,c=d.length,b=t.N,a=0;a<d.length;d.length===c||(0,A.D)(d),++a){k=d[a]
+J.ej(l,A.Z(["role",k.a,"content",k.b],b,b))}s=7
+return A.l(f.kN("vet-assistant",A.Z(["lang",e,"messages",l],b,t.K)),$async$yF)
+case 7:j=a5
 i=t.P.a(j.a)
-m.D(new A.b6G(m,i))
+l=A.a3(J.B(i,"reply"))
+if(l==null)l=""
+l=A.c2(l,"**","")
+h=B.o.aY(A.c2(l,"__",""))
+m.D(new A.b6G(m,h,i))
 n.push(6)
 s=5
 break
 case 4:p=3
-a1=o.pop()
-l=A.a0(a1)
-if(l instanceof A.qZ){h=l
-m.D(new A.b6H(m,h))}else m.D(new A.b6I(m))
+a2=o.pop()
+l=A.a0(a2)
+if(l instanceof A.qZ){g=l
+m.D(new A.b6H(m,g))}else m.D(new A.b6I(m))
 n.push(6)
 s=5
 break
@@ -149010,10 +149015,9 @@ s.z=!0
 s.Q=null},
 $S:0}
 A.b6G.prototype={
-$0(){var s=this.b,r=A.a3(s.h(0,"reply"))
-if(r==null)r=""
-r=A.c2(r,"**","")
-this.a.y.push(new A.Tk("assistant",A.c2(r,"__",""),A.a3(s.h(0,"urgency"))))},
+$0(){var s=this.b,r=this.a
+if(s.length===0)r.Q="ai_failed"
+else r.y.push(new A.Tk("assistant",s,A.a3(this.c.h(0,"urgency"))))},
 $S:0}
 A.b6H.prototype={
 $0(){var s=null,r=this.b.a
