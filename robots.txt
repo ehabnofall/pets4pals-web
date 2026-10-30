@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pets4pals.online/sitemap.xml
